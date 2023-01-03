@@ -1,0 +1,428 @@
+:root {
+    --primary-color: #e50914;
+    --dark-color: #141414;
+    --light-color: #f4f4f4;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background: #000;
+    color: #999;
+}
+
+ul {
+    list-style: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: #fff;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+p {
+    margin: 0.5rem 0;
+}
+
+img {
+    width: 100%;
+}
+
+.showcase {
+    width: 100%;
+    height: 93vh;
+    position: relative;
+    background: url('https://i.ibb.co/vXqDmnh/background.jpg') no-repeat center center/cover;
+}
+
+.showcase::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
+}
+.showcase-top {
+    position: relative;
+    z-index: 2;
+    height: 100px;
+}
+
+.showcase-top img {
+    width: 140px;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    margin-left: 0;
+}
+
+.showcase-top a {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+}
+
+.showcase-content {
+    position: relative;
+    z-index: 2;
+    width: 65%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 7rem;
+}
+.btn {
+    display: inline-block;
+    background: var(--primary-color);
+    color: #fff;
+    padding: 0.4rem 1.3rem;
+    font-size: 1rem;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    transition: opacity 0.2s ease-in;
+    outline: none;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
+    border-radius: 2px;
+}
+.showcase-content > h1{
+font-size: 52px;
+font-weight: 700;
+}
+.showcase-content > h5 {
+    font-size: 28px;
+    padding-top: 12px;
+    font-weight: 100;
+}
+.showcase-content >p {
+    font-size: 20px;
+    padding-top: 16px;
+    font-weight: 100;
+}
+.input_bracket,.input_bracket2{
+    margin-top: 14px;
+    display: flex;
+}
+.input_email{
+    height: 60px;
+    border: none;
+    outline: none;
+    width: 410px;
+    padding: 10px;
+    background-color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+.email_btn{
+    padding: 0 32px;
+    font-size: 24px;
+    text-align: center;
+     background: var(--primary-color);
+     color: #fff;
+     border: 1px solid red;
+}
+.part1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 4rem;
+    border-bottom: 0.6rem solid #111;
+}
+.part1 .talk{
+    width: 40%;
+}
+.part1 .talk h1{
+    font-size: 3.3rem;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+    color: #fff;
+}
+.feature__backgroud__video{
+    position: absolute;
+    width: 332px;
+    right:13%;
+    padding-top: 35px;
+}
+.part1 .talk p{
+    font-size: 1.6rem;
+    color: #fff;
+}
+.part1 .img{
+    width: 45%;
+}
+.part1 .img img{
+    width: 100%;
+}
+.part2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 4rem;
+    border-bottom: 0.6rem solid #111;
+}
+.part2 .img2 img {
+    margin-top: 2rem;
+    padding-left: 3rem;
+}
+.part2 .talk h1 {
+    font-size: 3.3rem;
+        letter-spacing: 2px;
+        padding-bottom: 10px;
+        color: #fff;
+}
+
+.part2 .talk p {
+    font-size: 1.6rem;
+        color: #fff;
+}
+.part2 .img2 {
+    width: 45%;
+}
+.FAQ__list__container{
+        padding-left: 25%;
+        padding-right: 25%;
+}
+.FAQ__heading{
+    font-size: 36px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.FAQ__accordian, .FAQ__accordian1,.FAQ__accordian2 {
+    height: 50px;
+    margin-bottom: 10px;
+        border: none;
+        outline: none;
+        width: 600px;
+        padding:  16px;
+        background-color: #404040;
+        font-size: 16px;
+        cursor: pointer;
+}
+.FAQ__accordian1{
+    height: 120px;
+    line-height: 22px;
+}
+.FAQ__accordian1 > p{
+    font-size: 1rem;
+}
+.FAQ__accordian2{
+    margin-bottom: 1px;
+}
+
+.FAQ__title{
+    border: none;
+    font-size: 1.2rem;
+    color: #f4f4f4;
+    background: none;
+}
+
+.FAQ__title > i{
+    position: absolute;
+    right: 34%;
+}
+.list-section{
+        border-bottom: 0.6rem solid #111;
+}
+
+.input_bracket2{
+    margin-left: 25%;
+    margin-bottom: 2rem;
+}
+.note{
+        margin-left: 25%;
+        font-size: 1.3rem;
+        margin-top: 50px;
+          margin-bottom: 2.5rem;
+}
+ footer {
+     padding: 2rem 20rem;
+     justify-content: flex-start;
+     text-align: left;
+     align-items: flex-start;
+ }
+
+ .footer__row__2 {
+     justify-content: space-between;
+     align-items: flex-start;
+     display: flex;
+ }
+.footer__row__1 > h4,.footer__row__2 div > p {
+color: #404040;
+}
+.dropdown__container{
+    display: flex;
+    border: 1px solid;
+    width: 100px;
+    border-radius: 5px;
+    padding: 4px;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+.globe{
+    width: 26px;
+}
+.language__drop__down{
+text-decoration: none;
+background: #000;
+color: #ccc;
+border: none;
+outline: none;
+}
+@media screen and (max-width:786px){
+    .showcase-top {
+        overflow: hidden;
+        }
+    .showcase-top img{
+         padding-left: 10px; 
+         width: 100px;  
+    }
+        .showcase-content{
+        margin-top: 2rem;
+        }
+    .showcase-content > h1{
+        font-size: 30px;
+    }
+        .showcase-content >h5 {
+            font-size: 30px;
+        }
+        .btn{
+        margin-right: 10px;
+   }
+   .part1{
+    flex-direction: column-reverse;
+    justify-content: center;
+    text-align: center;
+   }
+   .part1 .talk{
+    width: 80%;
+   }
+   .part1 .talk h1{
+    font-size: 3.2rem;
+    letter-spacing: 1.5px;
+    padding-bottom: 5px;
+   }
+   .part1 .talk p{
+       font-size: 1.5rem;
+   }
+   .part1 .img{
+    width: 80%;
+   }
+   .feature__backgroud__video {
+       position: absolute;
+       width: 300px;
+       right: 30%;
+       padding-top: 26px;
+   }
+   .part2 {
+     display: inline;
+      border-bottom: none;
+        text-align: center;
+   }
+   .part2 .img2 img {
+       margin-top: 2rem;
+       margin-left: 3rem;
+   }
+   .part2 .talk h1 {
+       font-size: 3.3rem;
+       letter-spacing: 2px;
+       padding-bottom: 10px;
+       color: #fff;
+   }
+
+   .part2 .talk p {
+       font-size: 1.6rem;
+       color: #fff;
+   }
+
+   .part2 .img2 {
+       width: 70%;
+   }
+   .FAQ__list__container {
+       padding-left: 13%;
+       padding-right: 25%;
+   }
+   .FAQ__heading {
+       font-size: 36px;
+       margin-top: 2rem;
+       margin-bottom: 2rem;
+   }
+
+   .FAQ__accordian,
+   .FAQ__accordian1,
+   .FAQ__accordian2 {
+       height: 30px;
+       margin-bottom: 10px;
+       width: 500px;
+       padding: 6px;
+       font-size: 12px;
+   }
+  .FAQ__accordian1 {
+      height: 90px;
+      line-height: 20px;
+  }
+
+  .FAQ__accordian1 > p{
+      font-size: 14px;
+  }
+
+  .FAQ__accordian2 {
+      margin-bottom: 1px;
+  }
+  .note {
+      margin-left: 10%;
+      font-size: 1.2rem;
+  }
+ 
+ .input_bracket2 {
+     margin-left: 13%;
+ }
+  .email_btn {
+    padding: 0 20px;
+        font-size: 14px;
+      
+  }
+  .input_email{
+        width: 350px;
+  }
+  .part1, .part2{
+      
+      border-bottom: 0.2rem solid #111;
+  }
+  footer {
+      padding: 1rem 5rem;
+  }
+  .FAQ__title>i {
+      right: 21%;
+      font-size: 14px;
+  }
+}
+@media screen and (max-width:496px) {
+
+}
