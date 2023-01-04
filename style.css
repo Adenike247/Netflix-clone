@@ -193,37 +193,38 @@ font-weight: 700;
 }
 .part2 .talk h1 {
     font-size: 3.3rem;
-        letter-spacing: 2px;
-        padding-bottom: 10px;
-        color: #fff;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+    color: #fff;
 }
 
 .part2 .talk p {
     font-size: 1.6rem;
-        color: #fff;
+    color: #fff;
 }
 .part2 .img2 {
     width: 45%;
 }
 .FAQ__list__container{
-        padding-left: 25%;
-        padding-right: 25%;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 .FAQ__heading{
     font-size: 36px;
+    text-align: center;
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
 .FAQ__accordian, .FAQ__accordian1,.FAQ__accordian2 {
     height: 50px;
     margin-bottom: 10px;
-        border: none;
-        outline: none;
-        width: 600px;
-        padding:  16px;
-        background-color: #404040;
-        font-size: 16px;
-        cursor: pointer;
+    border: none;
+    outline: none;
+    width: 600px;
+    padding:  16px;
+    background-color: #404040;
+    font-size: 16px;
+    cursor: pointer;
 }
 .FAQ__accordian1{
     height: 120px;
@@ -245,10 +246,11 @@ font-weight: 700;
 
 .FAQ__title > i{
     position: absolute;
-    right: 34%;
+    right: 32%;
+    font-size: 14px;
 }
 .list-section{
-        border-bottom: 0.6rem solid #111;
+    border-bottom: 0.6rem solid #111;
 }
 
 .input_bracket2{
@@ -256,22 +258,24 @@ font-weight: 700;
     margin-bottom: 2rem;
 }
 .note{
-        margin-left: 25%;
-        font-size: 1.3rem;
-        margin-top: 50px;
-          margin-bottom: 2.5rem;
+    margin-left: 25%;
+    font-size: 1.3rem;
+    margin-top: 50px;
+    margin-bottom: 2.5rem;
 }
  footer {
-     padding: 2rem 20rem;
-     justify-content: flex-start;
-     text-align: left;
-     align-items: flex-start;
+    padding: 2rem 20rem;
+    justify-content: flex-start;
+    text-align: left;
+    align-items: flex-start;
  }
 
  .footer__row__2 {
-     justify-content: space-between;
-     align-items: flex-start;
-     display: flex;
+    font-size: 1rem;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: flex-start;
+    display: flex;
  }
 .footer__row__1 > h4,.footer__row__2 div > p {
 color: #404040;
@@ -291,29 +295,32 @@ color: #404040;
 .language__drop__down{
 text-decoration: none;
 background: #000;
-color: #ccc;
+color: #999;
 border: none;
 outline: none;
 }
+.footer__row__4 > p{
+color: #999;
+}
 @media screen and (max-width:786px){
     .showcase-top {
-        overflow: hidden;
+     overflow: hidden;
         }
     .showcase-top img{
-         padding-left: 10px; 
-         width: 100px;  
+        padding-left: 10px; 
+        width: 100px;  
     }
-        .showcase-content{
+    .showcase-content{
         margin-top: 2rem;
         }
     .showcase-content > h1{
         font-size: 30px;
     }
-        .showcase-content >h5 {
-            font-size: 30px;
-        }
-        .btn{
-        margin-right: 10px;
+    .showcase-content >h5 {
+        font-size: 30px;
+     }
+     .btn{
+     margin-right: 10px;
    }
    .part1{
     flex-direction: column-reverse;
@@ -329,7 +336,7 @@ outline: none;
     padding-bottom: 5px;
    }
    .part1 .talk p{
-       font-size: 1.5rem;
+    font-size: 1.5rem;
    }
    .part1 .img{
     width: 80%;
@@ -341,24 +348,24 @@ outline: none;
        padding-top: 26px;
    }
    .part2 {
-     display: inline;
+      display: inline;
       border-bottom: none;
-        text-align: center;
+      text-align: center;
    }
    .part2 .img2 img {
        margin-top: 2rem;
        margin-left: 3rem;
    }
    .part2 .talk h1 {
-       font-size: 3.3rem;
-       letter-spacing: 2px;
-       padding-bottom: 10px;
-       color: #fff;
+    font-size: 3.3rem;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+    color: #fff;
    }
 
    .part2 .talk p {
-       font-size: 1.6rem;
-       color: #fff;
+    font-size: 1.6rem;
+    color: #fff;
    }
 
    .part2 .img2 {
@@ -377,27 +384,27 @@ outline: none;
    .FAQ__accordian,
    .FAQ__accordian1,
    .FAQ__accordian2 {
-       height: 30px;
-       margin-bottom: 10px;
-       width: 500px;
-       padding: 6px;
-       font-size: 12px;
+    height: 30px;
+    margin-bottom: 10px;
+    width: 500px;
+    padding: 6px;
+    font-size: 12px;
    }
   .FAQ__accordian1 {
-      height: 90px;
-      line-height: 20px;
+    height: 90px;
+    line-height: 20px;
   }
 
   .FAQ__accordian1 > p{
-      font-size: 14px;
+    font-size: 14px;
   }
 
   .FAQ__accordian2 {
-      margin-bottom: 1px;
+    margin-bottom: 1px;
   }
   .note {
-      margin-left: 10%;
-      font-size: 1.2rem;
+    margin-left: 10%;
+    font-size: 1.2rem;
   }
  
  .input_bracket2 {
@@ -405,14 +412,13 @@ outline: none;
  }
   .email_btn {
     padding: 0 20px;
-        font-size: 14px;
+    font-size: 14px;
       
   }
   .input_email{
         width: 350px;
   }
-  .part1, .part2{
-      
+  .part1, .part2{ 
       border-bottom: 0.2rem solid #111;
   }
   footer {
@@ -423,6 +429,4 @@ outline: none;
       font-size: 14px;
   }
 }
-@media screen and (max-width:496px) {
 
-}
